@@ -26,6 +26,7 @@ body[page=cadastro] header {
 body[page=cadastro] footer {  
   width: 335px;
   margin: 0 auto;
+  padding-top: 51px;
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
