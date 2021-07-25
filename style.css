@@ -23,7 +23,10 @@ body[page=cadastro] header {
   width: 200px;
   margin: 0 auto;
 }
-
+body[page=cadastro] footer {  
+  width: 335px;
+  margin: 0 auto;
+}
 body{
   font-family: Arial, Helvetica, sans-serif;
   font: 14px;
@@ -81,3 +84,22 @@ input {
  #invi{
    display: none;
  }
+ footer p{
+  margin: 5px;
+  }
+  .name {
+    float: left;
+    padding: 2px;
+    font-size: 17px;
+  }
+  .redes{
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    padding-left: px;
+    margin: 0 auto;
+  }
+  ul {
+    margin: 0px;
+  }
+  
