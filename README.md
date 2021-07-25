@@ -1,4 +1,4 @@
-# hiring-coders-challenger-2
+### hiring-coders-challenger-2
 Projeto do segundo désafio 
 
 Gestão de Cadastros 
@@ -14,5 +14,10 @@ Clicando em Novo usuário, adicionamos um novo cliente
 Podemos também editar ou deletar os clientes nos botões do lado direito da lista 
 
 ![image](https://user-images.githubusercontent.com/65052292/126894922-4ca44293-f564-4394-8ba9-30a91d2154f1.png)
+
+E os dados dos clientes ficam salvos no localstorage
+
+![image](https://user-images.githubusercontent.com/65052292/126895061-a98c6a62-994e-4cd6-97d9-6d30717fc60b.png)
+
 
 
