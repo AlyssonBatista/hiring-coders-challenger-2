@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="main.js"></script>
+  <title>CasaGamer</title>
+</head>
+
+<body page='lista'>
+  <header>
+    <img src="logo.png" alt="logo da loja">
+  </header>
+  <div id="listaRegistros">
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Nome</th>
+          <th>Produto</th>
+          <th>Endereço</th>
+          <th>Celular</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="listaRegistrosBody"></tbody>
+    </table>
+
+    <div>
+      <button onclick="mostrar('cadastro',true)">Novo usuário</button>
+    </div>
+  </div>
+
+  <form id="cadastroRegistros">
+    <div id="invi" class="label">
+      <div>Id</div>
+      <div>
+        <input type="number" readonly id="id" />
+      </div>
+
+    </div>
+
+    <div class="label">
+      <div>Nome</div>
+      <div>
+        <input id="nome" />
+      </div>
+    </div>
+
+    <div class="label">
+      <div>Produto</div>
+      <div>
+        <input id="produto" />
+      </div>
+    </div>
+
+    <div class="label">
+      <div>Endereço</div>
+      <div>
+        <input id="endereco" />
+      </div>
+    </div>
+
+    <div class="label">
+      <div>Celular</div>
+      <div>
+        <input type="tel" id="fone" />
+      </div>
+    </div>
+
+    <div>
+      <button>salvar</button>
+      <button onclick="mostrar('lista')" class="cinza" type="button"> cancelar</button>
+    </div>
+  </form>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>

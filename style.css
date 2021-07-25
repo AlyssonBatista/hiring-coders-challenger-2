@@ -1,0 +1,83 @@
+#listaRegistros{
+  display: none;
+}
+*{
+  background-color: #2F2439;
+}
+#cadastroRegistros{
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+body[page=lista] #listaRegistros {
+  display: block;  
+}
+body[page=cadastro] #cadastroRegistros {
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+  color: #ccc;
+  font-weight: bold;
+}
+body[page=cadastro] header {  
+  width: 200px;
+  margin: 0 auto;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font: 14px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+table th, table td{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 15px;
+  border: solid 1px rgb(139, 139, 139);
+  background-color:#ccc ;
+
+}
+
+button{
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #D35071;
+  color: #fff;
+  margin: 3px;
+  padding: 10px;
+}
+
+button.cinza{
+  background-color: #ccc;
+  color: #666;
+}
+button.red{
+  background-color: rgb(255, 0, 0);
+  
+}
+button:hover{
+  opacity: 0.8;
+}
+
+input {
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.label>div{
+  display: flex;
+}
+.label>div>input{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  background-color: #ccc;
+  flex: 1;
+}
+ #invi{
+   display: none;
+ }
